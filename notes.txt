@@ -1,0 +1,28 @@
+Searching algorithm ::
+    Searching algorithm were introduced to find or retrieve the element from where it is stored.
+    There are mainly 2 tyoes of algorithm -->
+        1. Linear Searching
+        2. Binary Searching
+
+    1. Linear Searching ==>
+        --> it is also called as sequential search algo.
+        --> it starts from one end and goes till the end of data set, if the element it not found. AND if element it found it will stop at that point.
+        --> in this we need a key to search the element similar to the key in given data set.
+         --> Time Complexity :
+                Best case: element present at the 1st index --> O(1)
+                Worst case : element it present at the end or element is not found --> O(n)
+                Average case : O(n)
+        --> Space Complexity : 
+                O(1) as it uses only a variable to store the location.
+        --> it can be performed on any type of array.
+        --> it do not need extra space.
+        --> it is best suited for small data set and when data is stored in contiguoug memory.
+
+
+    2. Binary Searching ==>
+        --> it is also called as interval search algo.
+        --> it can only be performed on sorted data set.
+        --> it work by dividing the data set into half intervals.
+        --> Worst time complexity --> O(log N)
+                --> worst case is either element not found or element present at 1st or last index.
+        --> best case --> O(1)
