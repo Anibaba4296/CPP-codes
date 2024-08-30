@@ -8,7 +8,6 @@ int main(){
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
-    // code here
     bool isfound=false;
     for(int i=1;i<n;i+=2){
         if(arr[i-1]!=arr[i]){

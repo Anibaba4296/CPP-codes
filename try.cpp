@@ -1,15 +1,13 @@
-
 #include<bits/stdc++.h>
 using namespace std;
-
-struct Node{
-    int data;
-    Node *right;
-    Node *left;
-};
-
-int main(){
-    vector<vector<int>> graph = {{0,1,1},{1,0,0},{1,0,0}};
-    cout<<graph[2][0]<<endl;
-    return 0;
+int main() {
+    int t;
+    cin>>t;
+    while(t--){
+        double n,a,r;
+        cin>>n>>a>>r;
+        double res = a*(1-pow(r,n))/(1-r);
+        cout<<res<<setprecision(6)<<endl;
+    }
+	return 0;
 }
